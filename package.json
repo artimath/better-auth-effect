@@ -1,5 +1,5 @@
 {
-  "name": "@artimath/better-auth-effect",
+  "name": "effect-better-auth",
   "version": "0.1.0",
   "type": "module",
   "license": "Apache-2.0",
@@ -7,11 +7,11 @@
   "author": "Ryan Hunter <ryan@ryanhunter.io>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/artimath/better-auth-effect.git"
+    "url": "https://github.com/artimath/effect-better-auth.git"
   },
-  "homepage": "https://github.com/artimath/better-auth-effect#readme",
+  "homepage": "https://github.com/artimath/effect-better-auth#readme",
   "bugs": {
-    "url": "https://github.com/artimath/better-auth-effect/issues"
+    "url": "https://github.com/artimath/effect-better-auth/issues"
   },
   "keywords": [
     "effect",

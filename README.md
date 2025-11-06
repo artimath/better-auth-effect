@@ -1,4 +1,4 @@
-# @artimath/better-auth-effect
+# effect-better-auth
 
 Effect.ts integration for [Better Auth](https://better-auth.com) with Kysely/Postgres support.
 
@@ -12,7 +12,7 @@ Effect.ts integration for [Better Auth](https://better-auth.com) with Kysely/Pos
 ## Installation
 
 ```bash
-pnpm add @artimath/better-auth-effect better-auth kysely pg
+pnpm add effect-better-auth better-auth kysely pg
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ pnpm add @artimath/better-auth-effect better-auth kysely pg
 ### Basic Setup
 
 ```typescript
-import { BetterAuthService, KyselyLayer } from "@artimath/better-auth-effect"
+import { BetterAuthService, KyselyLayer } from "effect-better-auth"
 import { Effect } from "effect"
 
 // Create Kysely layer with your database config
@@ -49,7 +49,7 @@ Effect.runPromise(
 ### Environment Configuration
 
 ```typescript
-import { BetterAuthEnv } from "@artimath/better-auth-effect"
+import { BetterAuthEnv } from "effect-better-auth"
 import { Config } from "effect"
 
 // Define your environment
